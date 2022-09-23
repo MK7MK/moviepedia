@@ -1,5 +1,5 @@
 # moviepedia
-hackathon Project
+software Project
 
 ABSTRACT:-
 The Moviepedia is two way responsive web page which will be responsible for show output to user he or she wants and will get input from a user he or she give. It also allow user to login which will get username and password from user and also allows user to get in as guest user.  But while entering as guest he or she may not give her input (i.e cannot give imdb rating). So once user can logged and search for movie, awards, cast, etc...  that his or her wants. Then the user can give the imdb rating for a movie which is completely updated after once it’s done. It also shows the user searched movie with imdb rating. It also has awards section and upcoming film section. In this project we required and a database and api which will help to find a group of list of movies that different user may want.
