@@ -1,0 +1,17 @@
+*{
+    padding: 1px;
+    margin: 1px;
+}
+body{
+    font-family: cursive;
+}
+h1{
+    border-style: double;
+    background-color: lightsalmon;
+}
+fieldset{
+width: 35%;
+}
+script{
+   background-color: darkgreen;
+}

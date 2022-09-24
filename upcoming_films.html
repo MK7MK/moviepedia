@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Upcoming Films
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+          body{
+            background-color: rgb(236, 253, 241);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          #hh{
+            background-color: rgb(226, 213, 205);
+            color: rgb(38, 14, 173);
+            text-align: center;
+            font-weight:900;
+          }
+          .Submit{
+            background-color: cornflowerblue;
+          }
+          .mt{
+            color: rgb(243, 69, 80);
+          }
+          hr{
+            background-color: rgb(161, 228, 255);
+          }
+          iframe{
+            border-radius: 1.5cm ;
+            margin: 2cm;
+          }
+          
+
+          @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+          
+          .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+          }
+
+          .searchTerm {
+            width: 100%;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 20px;
+            font-size: medium;
+            font-weight: bold;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: #9DBFAF;
+          }
+
+          .searchTerm:focus{
+            color: #0b0c0c;
+          }
+
+          .searchButton {
+            width: 40px;
+            height: 36px;
+            border: 1px solid #00B4CC;
+            background: #11b8ca;
+            text-align: center;
+            color: rgb(235, 235, 235);
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+          }
+          legend{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            font-size: 30px;
+            font-weight: bolder;
+          }
+          footer{
+            margin: 20px auto;
+            text-align: center;
+          }
+          marquee{
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 20px;
+              font-weight: 500;
+          }
+          .dark{
+            
+            
+            font-size: 100px;
+            margin-top: 45px;
+            margin-right: 6px;
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            top: 0;
+            right: 0;
+          }
+          .darkmode{
+            background-color: black;
+            color: white;
+          }
+          table{
+            width: 100%;
+            
+            border: 1px solid black;
+          }
+          
+
+          /*Resize the wrap to see the search bar change!*/
+          
+        </style>
+        <script>
+          function todayDate(){
+             var d = new Date();
+             var n = d.getFullYear() + "  ";
+             return document.getElementById("date").innerHTML = n;
+           }
+           function myFunction()
+           {
+             var element=document.body;
+             element.classList.toggle("darkmode");
+           }
+        </script>
+      
+    </head>
+    <body onload=todayDate()>
+      <h1 id="hh" >Upcoming Films</h1>
+      <div class="dark">
+        <button  onclick="myFunction()" >Enable DarkMode</button>
+      </div>
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="Search Upcoming films..">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+     <br>
+     <fieldset>
+       <legend>Upcoming Films</legend>
+         <br><br>
+      <table width=90%> 
+         
+          <tr >
+              <td >
+                <iframe width="500" height="350" src="https://www.youtube.com/embed/5zdBG-iGfes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </td>
+              <td width=5%>
+                 
+
+              </td>
+              
+              <td>
+                <table width=90%>
+                  <tr>
+                    <td>Movie Name:</td>
+                    <td>The King's Man</td>
+                  </tr>
+                  <tr>
+                    <td>directed By:</td>
+                    <td>Mathew Vaughn</td>
+                  </tr>
+                  <tr>
+                    <td>ScreenPlay By</td>
+                    <td>Mathew Vaughn</td>
+                  </tr>
+                  <tr>
+                    <td>Produced By</td>
+                    <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+                  </tr>
+                  <tr>
+                    <td>Starring</td>
+                    <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+                  </tr>
+                  <tr>
+                    <td>Cinematography</td>
+                    <td>Ben Davis</td>
+                  </tr>
+                  <tr>
+                    <td>Music By</td>
+                    <td>Mathhew Margeson</td>
+                  </tr>
+                  <tr>
+                    <td>Production Company</td>
+                    <td>Marvel Studios</td>
+                  </tr>
+                  <tr>
+                    <td>Edited By</td>
+                    <td>Jason Ballantine</td>
+                  </tr>
+                  <tr>
+                    <td>Distributed by</td>
+                    <td>20 th Century Studios</td>
+                  </tr>
+                  <tr>
+                    <td>Countries</td>
+                    <td>United Kingdom,United States</td>
+                  </tr>
+                  <tr>
+                    <td>Language</td>
+                    <td>English</td>
+                  </tr>
+                </table>
+
+              </td>
+              <td width=6%> 
+
+              </td>
+              <td>
+               
+              </td>
+            </td>
+            
+            <td >
+          </tr>
+          
+        </table> 
+        <hr>
+          <table width=90%>
+          <tr>
+            <td >
+              <iframe width="500" height="350" src="https://www.youtube.com/embed/k9N2eTBlkBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+            <td width=5%>
+               
+
+            </td>
+            <td>
+              <table width=90%>
+                <tr>
+                  <td>Movie Name:</td>
+                  <td>The King's Man</td>
+                </tr>
+                <tr>
+                  <td>directed By:</td>
+                  <td>Mathew Vaughn</td>
+                </tr>
+                <tr>
+                  <td>ScreenPlay By</td>
+                  <td>Mathew Vaughn</td>
+                </tr>
+                <tr>
+                  <td>Produced By</td>
+                  <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+                </tr>
+                <tr>
+                  <td>Starring</td>
+                  <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+                </tr>
+                <tr>
+                  <td>Cinematography</td>
+                  <td>Ben Davis</td>
+                </tr>
+                <tr>
+                  <td>Music By</td>
+                  <td>Mathhew Margeson</td>
+                </tr>
+                <tr>
+                  <td>Production Company</td>
+                  <td>Marvel Studios</td>
+                </tr>
+                <tr>
+                  <td>Edited By</td>
+                  <td>Jason Ballantine</td>
+                </tr>
+                <tr>
+                  <td>Distributed by</td>
+                  <td>20 th Century Studios</td>
+                </tr>
+                <tr>
+                  <td>Countries</td>
+                  <td>United Kingdom,United States</td>
+                </tr>
+                <tr>
+                  <td>Language</td>
+                  <td>English</td>
+                </tr>
+              </table>
+
+            </td>
+              
+
+            </td>
+            <td width=6%> 
+
+            </td>
+            <td>
+             
+            </td>
+          </td>
+          
+          <td >
+        </tr>
+      </table>
+      <hr>
+        <table width=90%>
+        <tr >
+          <td >
+            <iframe width="500" height="350" src="https://www.youtube.com/embed/Qah9sSIXJqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </td>
+          <td width=5%>
+             
+
+          </td>
+          <td>
+            <table width=90%>
+              <tr>
+                <td>Movie Name:</td>
+                <td>The King's Man</td>
+              </tr>
+              <tr>
+                <td>directed By:</td>
+                <td>Mathew Vaughn</td>
+              </tr>
+              <tr>
+                <td>ScreenPlay By</td>
+                <td>Mathew Vaughn</td>
+              </tr>
+              <tr>
+                <td>Produced By</td>
+                <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+              </tr>
+              <tr>
+                <td>Starring</td>
+                <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+              </tr>
+              <tr>
+                <td>Cinematography</td>
+                <td>Ben Davis</td>
+              </tr>
+              <tr>
+                <td>Music By</td>
+                <td>Mathhew Margeson</td>
+              </tr>
+              <tr>
+                <td>Production Company</td>
+                <td>Marvel Studios</td>
+              </tr>
+              <tr>
+                <td>Edited By</td>
+                <td>Jason Ballantine</td>
+              </tr>
+              <tr>
+                <td>Distributed by</td>
+                <td>20 th Century Studios</td>
+              </tr>
+              <tr>
+                <td>Countries</td>
+                <td>United Kingdom,United States</td>
+              </tr>
+              <tr>
+                <td>Language</td>
+                <td>English</td>
+              </tr>
+            </table>
+
+          </td>
+            
+
+          </td>
+          <td width=6%> 
+
+          </td>
+          <td>
+           
+          </td>
+        </td>
+        
+        <td >
+      </tr>
+    </table>
+    <hr>
+    <table width=90%>
+      <tr >
+        <td >
+          <iframe width="500" height="350" src="https://www.youtube.com/embed/QPYkZHPwC8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>
+        <td width = 5%>
+           
+
+      </td>
+      <td>
+        <table width=90%>
+          <tr>
+            <td>Movie Name:</td>
+            <td>The King's Man</td>
+          </tr>
+          <tr>
+            <td>directed By:</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>ScreenPlay By</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>Produced By</td>
+            <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+          </tr>
+          <tr>
+            <td>Starring</td>
+            <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+          </tr>
+          <tr>
+            <td>Cinematography</td>
+            <td>Ben Davis</td>
+          </tr>
+          <tr>
+            <td>Music By</td>
+            <td>Mathhew Margeson</td>
+          </tr>
+          <tr>
+            <td>Production Company</td>
+            <td>Marvel Studios</td>
+          </tr>
+          <tr>
+            <td>Edited By</td>
+            <td>Jason Ballantine</td>
+          </tr>
+          <tr>
+            <td>Distributed by</td>
+            <td>20 th Century Studios</td>
+          </tr>
+          <tr>
+            <td>Countries</td>
+            <td>United Kingdom,United States</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>English</td>
+          </tr>
+        </table>
+
+      </td>
+        
+
+      </td>
+
+        <td width=6%> 
+
+        </td>
+        <td>
+          
+        </td>
+      </td>
+      
+      <td >
+    </tr>
+  </table>
+  <hr>
+    <table width=90%>
+    <tr >
+      <td >
+        <iframe width="500" height="350" src="https://www.youtube.com/embed/-AuV2KFr5RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td width=5%>
+         
+
+      </td>
+      <td>
+        <table width=90%>
+          <tr>
+            <td>Movie Name:</td>
+            <td>The King's Man</td>
+          </tr>
+          <tr>
+            <td>directed By:</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>ScreenPlay By</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>Produced By</td>
+            <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+          </tr>
+          <tr>
+            <td>Starring</td>
+            <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+          </tr>
+          <tr>
+            <td>Cinematography</td>
+            <td>Ben Davis</td>
+          </tr>
+          <tr>
+            <td>Music By</td>
+            <td>Mathhew Margeson</td>
+          </tr>
+          <tr>
+            <td>Production Company</td>
+            <td>Marvel Studios</td>
+          </tr>
+          <tr>
+            <td>Edited By</td>
+            <td>Jason Ballantine</td>
+          </tr>
+          <tr>
+            <td>Distributed by</td>
+            <td>20 th Century Studios</td>
+          </tr>
+          <tr>
+            <td>Countries</td>
+            <td>United Kingdom,United States</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>English</td>
+          </tr>
+        </table>
+
+      </td>
+       
+
+      </td>
+      <td width=6%> 
+
+      </td>
+      <td>
+        
+      </td>
+    </td>
+    
+    <td >
+  </tr>
+</table>
+<hr>
+<table width=90%>
+    <tr >
+      <td >
+        <iframe width="500" height="350" src="https://www.youtube.com/embed/rt-2cxAiPJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td width=5%>
+         
+    
+      </td>
+      <td>
+        <table width=90%>
+          <tr>
+            <td>Movie Name:</td>
+            <td>The King's Man</td>
+          </tr>
+          <tr>
+            <td>directed By:</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>ScreenPlay By</td>
+            <td>Mathew Vaughn</td>
+          </tr>
+          <tr>
+            <td>Produced By</td>
+            <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+          </tr>
+          <tr>
+            <td>Starring</td>
+            <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+          </tr>
+          <tr>
+            <td>Cinematography</td>
+            <td>Ben Davis</td>
+          </tr>
+          <tr>
+            <td>Music By</td>
+            <td>Mathhew Margeson</td>
+          </tr>
+          <tr>
+            <td>Production Company</td>
+            <td>Marvel Studios</td>
+          </tr>
+          <tr>
+            <td>Edited By</td>
+            <td>Jason Ballantine</td>
+          </tr>
+          <tr>
+            <td>Distributed by</td>
+            <td>20 th Century Studios</td>
+          </tr>
+          <tr>
+            <td>Countries</td>
+            <td>United Kingdom,United States</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>English</td>
+          </tr>
+        </table>
+
+      </td>
+        
+    
+      </td>
+      <td width=6%> 
+    
+      </td>
+      <td>
+        
+      </td>
+    </td>
+    
+    <td >
+    </tr>
+    </table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/EqOSFhIKbRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+     
+
+  </td>
+  <td>
+    <table width=90%>
+      <tr>
+        <td>Movie Name:</td>
+        <td>The King's Man</td>
+      </tr>
+      <tr>
+        <td>directed By:</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>ScreenPlay By</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>Produced By</td>
+        <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+      </tr>
+      <tr>
+        <td>Starring</td>
+        <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+      </tr>
+      <tr>
+        <td>Cinematography</td>
+        <td>Ben Davis</td>
+      </tr>
+      <tr>
+        <td>Music By</td>
+        <td>Mathhew Margeson</td>
+      </tr>
+      <tr>
+        <td>Production Company</td>
+        <td>Marvel Studios</td>
+      </tr>
+      <tr>
+        <td>Edited By</td>
+        <td>Jason Ballantine</td>
+      </tr>
+      <tr>
+        <td>Distributed by</td>
+        <td>20 th Century Studios</td>
+      </tr>
+      <tr>
+        <td>Countries</td>
+        <td>United Kingdom,United States</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>English</td>
+      </tr>
+    </table>
+
+  </td>
+    
+
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+    
+  </td>
+</td>
+
+<td >
+</tr>
+</table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/Llk4_F5b4aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+     
+
+  </td>
+  <td>
+    <table width=90%>
+      <tr>
+        <td>Movie Name:</td>
+        <td>The King's Man</td>
+      </tr>
+      <tr>
+        <td>directed By:</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>ScreenPlay By</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>Produced By</td>
+        <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+      </tr>
+      <tr>
+        <td>Starring</td>
+        <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+      </tr>
+      <tr>
+        <td>Cinematography</td>
+        <td>Ben Davis</td>
+      </tr>
+      <tr>
+        <td>Music By</td>
+        <td>Mathhew Margeson</td>
+      </tr>
+      <tr>
+        <td>Production Company</td>
+        <td>Marvel Studios</td>
+      </tr>
+      <tr>
+        <td>Edited By</td>
+        <td>Jason Ballantine</td>
+      </tr>
+      <tr>
+        <td>Distributed by</td>
+        <td>20 th Century Studios</td>
+      </tr>
+      <tr>
+        <td>Countries</td>
+        <td>United Kingdom,United States</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>English</td>
+      </tr>
+    </table>
+
+  </td>
+    
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+   
+  </td>
+</td>
+
+<td >
+</tr>
+</table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/5NEjDMcYudk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+    
+
+  </td>
+  <td>
+    <table width=90%>
+      <tr>
+        <td>Movie Name:</td>
+        <td>The King's Man</td>
+      </tr>
+      <tr>
+        <td>directed By:</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>ScreenPlay By</td>
+        <td>Mathew Vaughn</td>
+      </tr>
+      <tr>
+        <td>Produced By</td>
+        <td>Mathew Vaughn,David Reid,Adam Bohling</td>
+      </tr>
+      <tr>
+        <td>Starring</td>
+        <td>Ralph Fiennes,Gemma Arterton,Rhys Ifans,Mathhew Goode,Tom Hollander</td>
+      </tr>
+      <tr>
+        <td>Cinematography</td>
+        <td>Ben Davis</td>
+      </tr>
+      <tr>
+        <td>Music By</td>
+        <td>Mathhew Margeson</td>
+      </tr>
+      <tr>
+        <td>Production Company</td>
+        <td>Marvel Studios</td>
+      </tr>
+      <tr>
+        <td>Edited By</td>
+        <td>Jason Ballantine</td>
+      </tr>
+      <tr>
+        <td>Distributed by</td>
+        <td>20 th Century Studios</td>
+      </tr>
+      <tr>
+        <td>Countries</td>
+        <td>United Kingdom,United States</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>English</td>
+      </tr>
+    </table>
+
+  </td>
+    
+
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+    
+  </td>
+</td>
+
+<td >
+</tr>
+
+      </table>
+      </fieldset>
+      <hr>
+      <br>
+      <br>
+      <marquee direction="left" behavior="alternate">Thank You For Using MoviePedia</marquee>
+      <marquee direction="right" behavior="alternate">Don't Forget To Give Your IMDB</marquee>   
+      <br>
+      <br>
+      <br>
+      <footer>
+          &copy; <em id="date"></em>MoviePedia
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Interest films
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+          body{
+            background-color: rgb(236, 253, 241);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+          }
+          #hh{
+            background-color: rgb(165, 247, 182);
+            color: rgb(38, 14, 173);
+            text-align: center;
+          }
+          .Submit{
+            background-color: cornflowerblue;
+          }
+          .mt{
+            color: rgb(243, 69, 80);
+          }
+          hr{
+            background-color: rgb(161, 228, 255);
+          }
+          iframe{
+            border-radius: 1cm ;
+            margin: 1.5cm;
+          }
+          h3{
+              font-size: medium;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-weight: bolder;
+              color: goldenrod;
+          }
+
+          @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+          
+          .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+          }
+
+          .searchTerm {
+            width: 100%;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 20px;
+            border-radius: 5px 0 0 5px;
+            font-size: medium;
+            font-weight: bold;
+            outline: none;
+            color: #f30303;
+          }
+
+          .searchTerm:focus{
+            color: #00B4CC;
+          }
+
+          .searchButton {
+            width: 40px;
+            height: 36px;
+            border: 1px solid #00B4CC;
+            background: #1212133b;
+            text-align: center;
+            color: rgb(235, 235, 235);
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+          }
+          legend{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 30px;
+              font-weight: 900;
+          }
+          footer{
+            margin: 20px auto;
+            text-align: center;
+          }
+          marquee{
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 20px;
+              font-weight: 500;
+          }
+          .dark{
+            
+            
+            font-size: 100px;
+            margin-top: 45px;
+            margin-right: 6px;
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            top: 0;
+            right: 0;
+          }
+          .darkmode{
+            background-color: black;
+            color: white;
+          }
+
+          /*Resize the wrap to see the search bar change!*/
+          
+        </style>
+        <script>
+            function todayDate(){
+               var d = new Date();
+               var n = d.getFullYear() + "  ";
+               return document.getElementById("date").innerHTML = n;
+             }
+             function myFunction()
+           {
+             var element=document.body;
+             element.classList.toggle("darkmode");
+           }
+          </script>
+  
+    </head>
+    <body onload=todayDate()>
+      <h1 id="hh" >Pepople Interested Movies</h1>
+      <div class="dark">
+        <button  onclick="myFunction()" >Enable DarkMode</button>
+      </div>
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="Search interest movies...">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+     <br>
+     <fieldset>
+         <legend>Interested Movies</legend>
+         <br><br>
+      <table width=90%> 
+         
+          <tr >
+              <td >
+                <iframe width="640" height="380" src="https://www.youtube.com/embed/eKYmp4FGy70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </td>
+              <td width=5%>
+                 
+
+              </td>
+              
+              <td ><h2 class="mt">Conjuring 3</h2>
+                <p>The Conjuring: The Devil Made Me Do It (also known as The Conjuring 3) is a 2021 American supernatural horror film directed by Michael Chaves, with a screenplay by David Leslie Johnson-McGoldrick from a story by Johnson-McGoldrick and James Wan. ... Safran confirmed that the next film would not be a haunted house film.<br><span >Director
+                    Chloé Zhao</span><br><span ><br><br><h3>RATING-9.4/10</h3></span>
+                </p>
+
+              </td>
+             
+              <td width=6%> 
+
+              </td>
+              <td>
+                
+              </td>
+              
+            </td>
+            
+            <td >
+          </tr>
+        </table> 
+        <hr>
+          <table width=90%>
+          <tr>
+            <td >
+              <iframe width="640" height="380" src="https://www.youtube.com/embed/FqAjVAf5fNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+            <td width=5%>
+               
+
+            </td>
+            <td ><h2 class="mt">Fast and Furious 9</h2>
+              <p>F9 (also known as F9: The Fast Saga and internationally as Fast & Furious 9) is a 2021 American action film directed by Justin Lin from a screenplay by Daniel Casey and Lin. ... In F9, Dominic Toretto and the team come together to stop a world-shattering plot headed by Toretto's brother, Jakob.
+                Starring: Vin Diesel; Michelle Rodriguez; Tyrese Gibson; Chris "Ludacris" Bridges; J...
+                Release date: May 19, 2021 (South Korea); June 25, 2021 (United States)<br><span >Director
+                  Florian Zeller</span><br><span ><br><br><h3>RATING-9.0/10</h3></span>
+              </p>
+
+            </td>
+            <td width=6%> 
+
+            </td>
+            <td>
+             
+            </td>
+          </td>
+          
+          <td >
+        </tr>
+      </table>
+      <hr>
+        <table width=90%>
+        <tr >
+          <td >
+            <iframe width="640" height="380" src="https://www.youtube.com/embed/odM92ap8_c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </td>
+          <td width=5%>
+             
+
+          </td>
+          <td ><h2 class="mt">Godzilla vs Kong</h2>
+            <p>Godzilla vs. Kong is a 2021 American monster film directed by Adam Wingard. ... In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a secret weapon to stop Godzilla's mysterious rampages.<br><span >Director
+                Shaka King</span><br><span ><br><br><h3>RATING-8.7/10</h3></span>
+            </p>
+
+          </td>
+          <td width=6%> 
+
+          </td>
+          <td>
+           
+          </td>
+        </td>
+        
+        <td >
+      </tr>
+    </table>
+    <hr>
+    <table width=90%>
+      <tr >
+        <td >
+          <iframe width="640" height="380" src="https://www.youtube.com/embed/CmRih_VtVAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>
+        <td width = 5%>
+           
+
+      </td>
+      <td "><h2 class="mt">Suicide Squad</h2>
+        <p>In the film, a secret government agency led by Amanda Waller recruits imprisoned supervillains to execute dangerous black ops missions and save the world from a powerful threat in exchange for reduced sentences.
+            Starring: Will Smith; Jared Leto; Margot Robbie; Joel Kinnaman; Viola Davis; Jai Co...
+            Edited by: John Gilroy<br><span >Director
+          Lee Isaac Chung</span><br><span ><br><br><h3>RATING-8.5/10</h3></span>
+        </p>
+
+      </td>
+
+        <td width=6%> 
+
+        </td>
+        <td>
+          
+        </td>
+      </td>
+      
+      <td >
+    </tr>
+  </table>
+  <hr>
+    <table width=90%>
+    <tr >
+      <td >
+        <iframe width="640" height="380" src="https://www.youtube.com/embed/-FmWuCgJmxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td width=5%>
+         
+
+      </td>
+      <td ><h2 class="mt">Venom</h2>
+        <p>Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.
+            Release date: 14 October 2021 (India)
+            Story by: Tom Hardy; Kelly Marcel
+            Music by: Marco Beltrami
+            Budget: $110 million
+            Based on: Marvel Comics<br><span > Director: Andy Serkis</span><br><span ><br><h3>RATING-8.3/10</h3></span>
+        </p>
+
+      </td>
+      <td width=6%> 
+
+      </td>
+      <td>
+        
+      </td>
+    </td>
+    
+    <td >
+  </tr>
+</table>
+<hr>
+<table width=90%>
+    <tr >
+      <td >
+        <iframe width="640" height="380" src="https://www.youtube.com/embed/ybji16u608U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td width=5%>
+         
+    
+      </td>
+      <td ><h2 class="mt">Black Widow</h2>
+        <p>Black Widow is a 2021 superhero film, based on the Marvel Comics superheroine of the same name. The film is a sequel to Captain America: Civil War and a prequel to Avengers: Infinity War. It is the twenty-fourth film in the Marvel Cinematic Universe, and the fourth installment of Phase Four. The film was released on July 9, 2021 in theaters and on Disney+ with Premier Access.<br><span >Director
+          George C. Wolfe</span><br><span ><br><br><h3>RATING-8.1/10</h3></span>
+        </p>
+    
+      </td>
+      <td width=6%> 
+    
+      </td>
+      <td>
+        
+      </td>
+    </td>
+    
+    <td >
+    </tr>
+    </table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="640" height="380" src="https://www.youtube.com/embed/ejMMn0t58Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+     
+
+  </td>
+  <td ><h2 class="mt">Conjuring1</h2>
+    <p>Tensions rise when trailblazing blues singer Ma Rainey and her band gather at a recording studio in Chicago in 1927.<br><span >Director
+      George C. Wolfe</span><br><span ><br><br><h3>RATING-8.1/10</h3></span>
+    </p>
+
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+    
+  </td>
+</td>
+
+<td >
+</tr>
+</table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="640" height="380" src="https://www.youtube.com/embed/7i5kiFDunk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+     
+
+  </td>
+  <td ><h2 class="mt">Promising Young Woman</h2>
+    <p>A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.<br><span >Director
+        Emerald Fennell</span><br><span ><br><br><h3>RATING-8.0/10</h3></span>
+    </p>
+
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+   
+  </td>
+</td>
+
+<td >
+</tr>
+</table>
+<hr>
+<table width=90%>
+<tr >
+  <td >
+    <iframe width="640" height="380" src="https://www.youtube.com/embed/AZGcmvrTX9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
+  <td width=5%>
+    
+
+  </td>
+  <td ><h2 class="mt">Tenet</h2>
+    <p>Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.<br><span >Director
+      Christopher Nolan</span><br><span ><br><br><h3>RATING-7.9/10</h3></span>
+    </p>
+
+  </td>
+  <td width=6%> 
+
+  </td>
+  <td>
+    
+  </td>
+</td>
+
+<td >
+</tr>
+
+</table>
+</fieldset>
+<hr>
+<br>
+<br>
+<marquee direction="left" behavior="alternate">Thank You For Using MoviePedia</marquee>
+<marquee direction="right" behavior="alternate">Don't Forget To Give Your IMDB</marquee>   
+<br>
+<br>
+<br>
+<footer>
+    &copy; <em id="date"></em>MoviePedia
+  </footer>
+</body>
+</html>

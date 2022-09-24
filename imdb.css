@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg,#1D1B1B 5%, rgb(155, 0, 52) -50%);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    margin-top: 1%;
+    color: yellow;
+    border-style: dotted;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.menubar{
+    background:palegreen;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 15%;
+    border-radius: 15px;
+    height: 2.5cm;
+    border-width: thick;
+}
+#title{
+    margin-left: 10%;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    border-style: double;
+}
+.menubar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.Home{
+    border-width: 5%;
+    height: 2cm;
+}
+
+.imdb, .menubar ul li :hover{ 
+    background-color: rgb(255, 153, 0);
+    border-radius: 3px;
+}
+
+.submenu{
+    display: none;
+}
+
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: rgb(255, 153, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#icon1{
+    
+}
+#icon2{ 
+    margin-top: 3.8%;  
+    float: left;
+    margin-left: -5%;
+    
+}
+.home{
+    background-color: rgb(230, 201, 201);
+    margin-left: 10%;
+    margin-right: 10%;   
+ }
+ 
+ .home table{
+     color:darkred;
+     border-color: darkorange;
+ }
+
+.searchbar{
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+
+

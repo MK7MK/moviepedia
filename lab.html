@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="lab.css" rel="stylesheet" type="text/css">
+        <center><h1>Car Loan EMI Calculator</h1></center>
+    </head>
+    <body id="body" background="car.jpg">
+        <fieldset>
+        <legend><h1>Calculator</h1></legend>
+        <label><strong>Total Amount:</strong> <input id="total" ></label><br>
+        <label><strong>Amount that you Have: </strong><input id="initial" ></label><br>
+        <label><strong>Amount you can pay per month through EMI: </strong><input id="Amount" ></label><br>
+        
+        <button onclick="fn1()" id="btn1">SUBMIT</button>
+        </fieldset>
+       
+        <script id="script" type="text/javascript" > 
+        
+        function fn1(){
+        var total=document.getElementById("total").value;
+        var initial=document.getElementById("initial").value;
+        var Amount=document.getElementById("Amount").value;
+        
+        var rem_am= total-initial;
+        let rem_mon= rem_am/Amount;
+        var emi=(rem_am * 0.1)+(1*Amount);
+        document.write("<h2>"+"The Total Amount is:" +total+"</h2>"+"<br>");
+        document.write("<h2>" +"The Initial Amount paid is:"+initial+"</h2>"+"<br>");
+        document.write("<h2>"+"The Remaining Amount is:" +rem_am+"</h2>"+"<br>");
+        document.write("<h2>"+"The EMI Amount per month is:" +emi+"</h2>"+"<br>");
+        document.write("<h2>"+"The no. of month to pay EMI is:" +rem_mon+"</h2>"+"<br>");
+
+        
+        document.getElementById("script").style.color="red";
+        }        
+        </script>
+    </body>
+</html>

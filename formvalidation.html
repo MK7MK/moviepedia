@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <center><h1>IT Application Form</h1></center>
+        <link href="fromvalidate.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            function validate(){
+
+            var uname=document.getElementById("uname");
+            var password= document.getElementById("password");
+            if(uname.value.trim()=="")
+            {
+                //alert("blank USernmae");
+                uname.style.border="solid 3px red";
+                document.getElementById("lblu").style.visibility="visible";
+                return false;
+            }
+            else if(password.value.trim()=="")
+            {
+                //alert("blank password");
+                password.style.border="solid 3px red";
+                document.getElementById("lblp").style.visibility="visible";
+                return false;
+            }
+            else if(password.value.trim().length < 5)
+            {
+                //alert("password too short");
+                password.style.border="solid 3px red";
+                document.getElementById("lblp").style.visibility="visible";
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+           
+        </script>
+        </head>
+    <body>
+        <fieldset>
+        <legend><center>Please fill the Form below</center></legend>
+        <form  onsubmit="return validate();" 
+        action="wel.html">
+                <label for="NAME">Name: </label><br><input type="text" id="name" name="name" required></li><br>
+                <label for="Age" class="age">AGE:</label><br> <input type="number" id="age" ></li><br>
+                <label for="datemax">[Enter a date before 31-12-2021] Dob: </label><br><input type="date" id="datemax"  name="datemax" max="2021-12-31"><br><br>
+                <label for="Gender">Gender: </label><br> <input type="radio" id="male" required><label>Male</label><br>
+                    <input type="radio" id="female"><label>Female</label><br>
+                    <input type="radio" id="others"><label>Others</label><br>
+                <label for="Qualification">Qualification: </label><br><select name="qualification" id= "qualification"><optgroup label="qualification" required><option value="B.E">B.E</option>
+                    <option value="B.E">B.Tech IT</option>
+                    <option value="B.E">B.Sc computer science</option>
+                    <option value="B.E">BCA</option>
+                    <option value="B.E">B.com</option></optgroup></select><br>
+                <label for="job"> jOB APPLICATION FOR: </label><br><select name="q" id= "q"><optgroup label="j"><option value="Programmer">Programmer</option>
+                    <option value="Aalyst">Analyst</option>
+                    <option value="Aalyst">test engineer</option>
+                    <option value="Aalyst">HR</option>
+                    <option value="Aalyst">Software developer</option>
+                    <option value="Ofiice support">Office Support</option>
+                    </optgroup></select><br>
+                <label for="Gender">Experience(in years): </label><br><input type="number"><br>
+                <label for="CsSkill">Computer Skills</label><br><input type="checkbox" id="text"><label>C</label><br>
+                    <input type="checkbox" id="text"><label>C++</label><br>
+                    <input type="checkbox" id="text"><label>Java</label><br>
+                    <input type="checkbox" id="text"><label>Python</label><br>
+                    <input type="checkbox" id="text"><label>Testing</label><br>
+                    <input type="checkbox" id="text"><label>MsOffice</label><br>
+                    <input type="checkbox" id="text"><label>DTP</label></li><br>
+                <label for="ms">Other Skills:</label><br><textarea placeholder="eg.communication skills" id="others" cols="30" rows="2"></textarea> </li>
+                <br>
+                
+                <label for="userNAME">USERNAME: </label><br><input id="uname" name="uname"  type="text" /><label id="lblu" style="color: red; visibility:hidden">Invalid</label><br>
+                </div>
+                
+                <label for="password">Password: </label><br><input id="password" name="password"  type="password" /><label id="lblp" style="color: red; visibility:hidden">Invalid</label><br>
+                </div>
+                    <input type="submit">
+                    <input type="reset">
+            </ol>
+        </form>
+    </fieldset>
+    </body>
+</html>

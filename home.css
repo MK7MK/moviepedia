@@ -1,0 +1,180 @@
+
+
+.mainbody{
+    margin: 0;
+    background-color: rgb(87, 3, 3);
+    height: 20%; width: 100%;
+    padding: 80px 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg,#1D1B1B 5%, rgb(155, 0, 52) -50%);
+    background-size: cover;
+}
+
+.explorebar
+{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 10%;
+    background-color: rgb(103, 0, 129);
+    width: 80%;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    height: 17mm;
+    background-size: 2cm;
+    margin-block-start: -3%;
+}
+
+
+
+.explorebar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+    display:inline-flex;
+    color: #fff;  
+    width: 10%;
+    margin-left: 10px;
+}
+
+.explorebar ul li a{
+    text-decoration: black;
+    color: rgb(0, 0, 0);
+}
+
+.active, .explorebar ul li:hover
+{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 4mm;
+    width: auto;
+}
+
+header{
+    text-align: center;
+}
+
+
+
+.explorebar ul li:hover .submenu
+{
+
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.explorebar ul li:hover .idE ul{
+    
+    display: block;
+    margin: 10px;
+}
+
+.explorebar ul li:hover .submenu ul li{
+    width: 150px;
+    padding:10px;
+    border-bottom: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.explorebar ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.explorebar ul li:hover .submenu ul li a:hover
+{
+    color: #b2ff00;
+}
+
+.home{
+   background-color: rgb(230, 201, 201);
+   margin-left: 10%;
+   margin-right: 10%;
+    
+}
+
+.home table{
+    color:darkred;
+    border-color: darkorange;
+}
+#inli{
+  width: fit-content;
+}
+
+
+.id1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.id1 h3{
+    color: darkmagenta;
+}
+
+.id1 i{
+    color: darkred;
+}
+
+.id1 ul{
+    display: inline-flexbox;
+    font-family: cursive;
+}
+------
+
+
+
+
+.topmenu li a:hover {
+  background-color: #222;
+}
+
+.topmenu li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sidemenu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.sidemenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidemenu li a {
+  margin-bottom: 4px;
+  display: block;
+  padding: 8px;
+  background-color: #eee;
+  text-decoration: none;
+  color: #666;
+}
+
+.sidemenu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.sidemenu li a.active {
+  background-color: #008CBA;
+  color: white;
+}
+</style

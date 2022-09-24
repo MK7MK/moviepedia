@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: rgb(238, 39, 99);    
+}
+legend{
+    margin-left: 45%;
+}
+fieldset{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: thick;
+}
+
+#formin{
+    ;
+}
+      
